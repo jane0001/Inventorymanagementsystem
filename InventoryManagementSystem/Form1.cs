@@ -26,5 +26,58 @@ namespace InventoryManagementSystem
         {
 
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+        
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            if (textBox2.PasswordChar == '*')
+            {
+                button2.BringToFront();
+                textBox2.PasswordChar = '\0';
+            }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            if (textBox2.PasswordChar == '\0')
+            {
+                button3.BringToFront();
+                textBox2.PasswordChar = '*';
+            }
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
