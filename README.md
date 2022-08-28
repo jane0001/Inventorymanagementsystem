@@ -1,1 +1,1 @@
-# Inventorymanagementsystem
+# InventoryApp
