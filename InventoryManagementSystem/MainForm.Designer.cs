@@ -28,17 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.panel3.SuspendLayout();
-            this.panel1.SuspendLayout();
+            this.panel2 = new System.Windows.Forms.Panel();       
             this.SuspendLayout();
             // 
             // panel3
@@ -54,6 +54,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+      
             this.panel1.Controls.Add(this.label8);
             this.panel1.Controls.Add(this.label7);
             this.panel1.Controls.Add(this.label6);
@@ -112,6 +113,17 @@
             this.label4.TabIndex = 13;
             this.label4.Text = "PRODUCT";
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(67, 9);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(184, 32);
+            this.label2.TabIndex = 11;
+            this.label2.Text = "yver Shoprite";
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -135,28 +147,42 @@
             this.label3.TabIndex = 9;
             this.label3.Text = "INVENTORY MANAGEMENT SYSTEM";
             // 
-            // label2
+            // panel2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(67, 9);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(184, 32);
-            this.label2.TabIndex = 11;
-            this.label2.Text = "yver Shoprite";
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel2.Location = new System.Drawing.Point(0, 415);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(863, 20);
+            this.panel2.TabIndex = 3;
+            // 
+            // cutomerButton4
+            // 
+       
+            // 
+            // cutomerButton3
+            // 
+          
+            // cutomerButton2
+       
+            // 
+            // cutomerButton1
+            // 
+         
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(863, 435);
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel3);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "MainForm";
             this.panel3.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+       
             this.ResumeLayout(false);
 
         }
@@ -171,5 +197,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Panel panel2;
+      
     }
 }

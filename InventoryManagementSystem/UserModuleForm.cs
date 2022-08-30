@@ -16,5 +16,15 @@ namespace InventoryManagementSystem
         {
             InitializeComponent();
         }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void UserModuleForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
